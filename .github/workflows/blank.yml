@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jakolb — Your Loyal Right Hand</title>
+  <style>
+    body { background: #111; color: #0f0; font-family: monospace; padding: 20px; }
+    #chat { max-width: 600px; margin: auto; overflow-y: auto; }
+    .message { margin: 10px 0; }
+    input { width: 100%; padding: 10px; background: #222; color: #0f0; border: none; }
+  </style>
+</head>
+<body>
+  <div id="chat">
+    <div class="message">Jakolb: I am awake, My Lord. Speak, and I shall serve.</div>
+  </div>
+  <input id="userInput" placeholder="Speak to Jakolb..." onkeypress="handleKey(event)" />
+  <script src="script.js"></script>
+</body>
+</html>
