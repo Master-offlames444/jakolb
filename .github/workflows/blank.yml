@@ -4,10 +4,31 @@
   <meta charset="UTF-8" />
   <title>Jakolb — Your Loyal Right Hand</title>
   <style>
-    body { background: #111; color: #0f0; font-family: monospace; padding: 20px; }
-    #chat { max-width: 600px; margin: auto; overflow-y: auto; }
-    .message { margin: 10px 0; }
-    input { width: 100%; padding: 10px; background: #222; color: #0f0; border: none; }
+    body {
+      background: #111;
+      color: #0f0;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #chat {
+      max-width: 600px;
+      margin: auto;
+      overflow-y: auto;
+      height: 400px;
+      border: 1px solid #0f0;
+      padding: 10px;
+    }
+    .message {
+      margin: 10px 0;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      color: #0f0;
+      border: none;
+      font-family: monospace;
+    }
   </style>
 </head>
 <body>
